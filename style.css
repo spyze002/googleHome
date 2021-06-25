@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* done by demon hacker*/
+.main-container {
+  margin: 1px;
+  padding: 1px;
+  display: block;
+  font-family: arial, sans-serif;
+  flex-wrap: wrap;
+  min-width: 400px;
+}
+.header-1 {
+  display: flex;
+  padding: 2px;
+  float: right;
+  justify-content: space-around;
+  height: 61px;
+  width: 242px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+}
+.img {
+  border: 1px solid black;
+  border-radius: 50%;
+  background: white;
+  width: 35px;
+  height: 35px;
+}
+.text {
+  padding: 0px 15px 0px 0px;
+}
+a {
+  text-decoration: none;
+}
+.google-center {
+  margin-top: 165px;
+}
+.text-area {
+  display: flex;
+  width: 600px;
+  height: 45px;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 470px;
+  margin-top: 25px;
+  border: 0.7px solid silver;
+}
+.google {
+  align-items: center;
+  text-align: center;
+}
+.btn-under-google {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.btn1 {
+  margin: 10px;
+  width: 105px;
+  height: 35px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.btn2 {
+  margin: 10px;
+  width: 105px;
+  height: 35px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.under-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 26px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+.footer {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: block;
+  margin-top: 215px;
+  background: rgb(245, 245, 245);
+}
+.cm {
+  display: block;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.left-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+  padding: 14px;
+  margin-top: 5px;
+}
+.color-footer {
+  color: #70757a;
+}
+.blue {
+  color: blue;
+}
+.black {
+  color: black;
+}
