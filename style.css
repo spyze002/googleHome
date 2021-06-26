@@ -43,15 +43,47 @@ a {
   margin-top: 165px;
 }
 .text-area {
+  position: relative;
   display: flex;
-  width: 600px;
-  height: 45px;
+  height: 44px;
   flex-wrap: wrap;
   border-radius: 30px;
   text-align: center;
+  background-color: transparent;
+  border: 0px solid;
+  flex: 100%;
+  font-size: 15px;
+  word-wrap: break-word;
+  justify-content: center;
+
+  border: none;
+  resize: none;
+  outline: none; 
+}
+.border-text-area{
+  position: relative;
+  display: flex;
+  border: 1px solid silver;
+  border-radius: 30px;
+  margin-top: 50px;
   margin-left: 470px;
-  margin-top: 25px;
-  border: 0.7px solid silver;
+  margin-right: 470px;
+  height:44px ;
+
+}
+.mic{
+  color: silver;
+  width: 30px;
+  height:30px;
+  margin-right: 25px;
+  margin-top: 7px;
+}
+.search{
+  color: silver;
+  width: 30px;
+  height:30px;
+  margin-left: 25px;
+  margin-top: 7px;
 }
 .google {
   align-items: center;
@@ -93,8 +125,9 @@ a {
   flex-grow: 1;
   flex-shrink: 0;
   display: block;
-  margin-top: 215px;
+  margin-top: 245px;
   background: rgb(245, 245, 245);
+  flex-wrap: wrap;
 }
 .cm {
   display: block;
